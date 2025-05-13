@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- link css -->
+        <link rel="stylesheet" href="/public/CSS/styleDashboard.css" />
+
+        <!-- link fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,400;0,700;1,400;1,700&family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <!-- link icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta2/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+
+        <!-- title web -->
+        <title>WEBANKMIN</title>
+    </head>
+    <body>
+        <!-- main -->
+        <div class="main">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <h1>10<span>Exchange</span></h1>
+                <div class="items">
+                    <div class="dashboard">
+                        <a href="/public/HTML/mainMenu/dashboard.html"
+                            ><img src="/public/assets/dashboard.png" alt="" />
+                            <span class="sidebar-text"><h2>Dashboard</h2></span>
+                        </a>
+                    </div>
+                    <div class="saldo">
+                        <a href="/public/HTML/mainMenu/saldo.html"
+                            ><img src="/public/assets/saldo.png" alt="" />
+                            <span class="sidebar-text"><h2>Balance</h2></span>
+                        </a>
+                    </div>
+                    <div class="transaksi">
+                        <ul class="dropdown2">
+                            <li id="dropdown-trigger2">
+                                <a href="#sdf"
+                                    ><img
+                                        src="/public/assets/transaksi.png"
+                                        alt=""
+                                    />
+                                    <span><h2>Transaction</h2></span>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                            </li>
+                            <li id="item-dropdown-topup">
+                                <a href="/public/HTML/mainMenu/topup.html"
+                                    >Top Up</a
+                                >
+                            </li>
+                            <li id="#">
+                                <a href="#"></a>
+                            </li>
+                            <li id="item-dropdown-konvertuang">
+                                <a href="#convertCurrency">Convert Currency</a>
+                            </li>
+                            <li id="item-dropdown-payment">
+                                <a href="#payment">Payment</a>
+                            </li>
+                            <li id="item-dropdown-historitrans">
+                                <a href="#TransactionHistory"
+                                    >Transaction history</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="akun">
+                        <ul class="dropdown">
+                            <li id="dropdown-trigger">
+                                <a href="#sdfea"
+                                    ><img
+                                        src="/public/assets/akun.png"
+                                        alt=""
+                                    />
+                                    <span><h2>Account</h2></span>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                            </li>
+                            <li id="item-dropdown1">
+                                <a href="/public/HTML/mainMenu/profil.html"
+                                    >Profile Details</a
+                                >
+                            </li>
+                            <li id="item-dropdown2">
+                                <a
+                                    href="/public/HTML/mainMenu/security-akun.html"
+                                    >Security Account</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="guide">
+                        <a href="/public/HTML/mainMenu/guide.html"
+                            ><img src="/public/assets/guide.png" alt="" />
+                            <span class="sidebar-text"><h2>Guide</h2></span>
+                        </a>
+                    </div>
+                    <div class="logout">
+                        <a href="#sdf">
+                            <img src="/public/assets/logout.png" alt="" />
+                            <span><h2>Logout</h2></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-menu">
+                <!-- topbar -->
+                <div class="topbar" id="topbar">
+                    <div id="hamburger-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="profile">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="menu-dashboard">
+                    <h1>Guide</h1>
+          <div class="dashboard-items">
+            <div class="guide">
+                <p>This website is used for the purpose of carrying out balance transactions in digital currency exchange.</p>
+                <h1>1.Balance</h1>
+                <p>This feature shows the various balances you have, such as: your last balance, transfer balance, income balance, balance from currency exchange, and real-time graphs of digital currency.</p>
+                <h1>2.Transaction</h1>
+                <p>This feature is used to carry out several transactions directly, here are some of the transactions used:</p>
+                <p>a. Top Up</p>
+                <p>A feature used to add to your balance to make currency exchange or payments.</p>
+                <p>b. Convert Currency</p>
+                <p>A feature used to exchange foreign currency, from your currency balance to another currency balance.</p>
+                <p>c. Payment</p>
+                <p>A feature used to pay your balance towards the balance that you will pay according to your currency balance.</p>
+                <p>d. Transaction History</p>
+                <p>A feature is used to show your history when making transactions on this website.</p>
+                <h1>3.Account</h1>
+                <p>This feature is used for your account settings to change some of your profile data. Here are some of the account settings used:</p>
+                <p>a. Profile Details</p>
+                <p>A feature used to manage and change some profile data from your account.</p>
+                <p>b. Security Account</p>
+                <p>The feature used in this security account is changing the new password for the account you are using.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- link js -->
+        <script src="/public/JS/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,193 @@
+:root {
+  --warna1: #ffffff;
+  --warna2: #000000;
+  --warna3: #d9d9d9;
+  --warna4: #29bf12;
+  --warna5: #abff4f;
+  --warna6: #08bdbd;
+  --warna7: #f21b3f;
+  --warna8: #ff9914;
+  --warna9: #ffbe0b;
+  --warna10: #8338EC;
+  --warna11: #3A86FF;
+  --warna12: #FB5607;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: var(--warna1);
+  color: var(--warna2);
+  font-family: "MuseoModerno", cursive;
+}
+
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* login card */
+/* .login-card {
+  background-color: aqua;
+  border-radius: 3%;
+  width: 350px;
+  height: 400px;
+} */
+
+/* konten 1 */
+.content-1 h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 26px;
+}
+.content-1 h1:first-child span {
+  color: var(--warna9);
+  font-weight: bold;
+}
+.content-1 h1:last-child {
+  color: var(--warna10);
+}
+
+/* konten 2 */
+.content-2 {
+  margin-left: 20px;
+}
+.content-2 h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.content-2 input[type="text"] {
+  border: 2px solid var(--warna11);
+  font-size: 30px;
+  border-radius: 25px;
+  width: 458px;
+  height: 77px;
+  padding: 20px;
+}
+.content-2 input[type="email"] {
+  border: 2px solid var(--warna11);
+  font-size: 30px;
+  border-radius: 25px;
+  width: 458px;
+  height: 77px;
+  padding: 20px;
+}
+.content-2 input[type="password"] {
+  border: 2px solid var(--warna11);
+  font-size: 30px;
+  border-radius: 25px;
+  width: 458px;
+  height: 77px;
+  padding: 20px;
+}
+
+/* konten 2 (forgot passowrd) */
+.forgot-password.content-1 h1:first-child {
+  margin-bottom: 66px;
+}
+.forgot-password.content-2 h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+/* konten 2 (forgot passowrd 2) */
+
+/* konten 3 */
+.content-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 65px;
+  font-size: 24px;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box input[type="checkbox"] {
+  appearance: none;
+  border: 2px solid var(--warna11);
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box input[type="checkbox"]:after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--warna2);
+  display: none;
+}
+.box input[type="checkbox"]:checked:after {
+  display: block;
+}
+.box h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--warna11);
+}
+.content-3 a {
+  color: var(--warna11);
+}
+.content-3 a:hover {
+  color: slateblue;
+}
+
+/* konten 4 */
+.content-4 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.content-4 button {
+  width: 340px;
+  height: 70px;
+  border-radius: 25px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "MuseoModerno", cursive;
+  cursor: pointer;
+  background-color: var(--warna12);
+  color: var(--warna1);
+}
+.content-4 button:hover {
+  background-color: #FB5607;
+}
+
+/* konten 5 */
+.content-5 {
+  display: inline-flex;
+  margin-left: 55px;
+  gap: 30px;
+  font-size: 20px;
+}
+.content-5 h3 {
+  font-weight: 500;
+}
+.content-5 a {
+  color: var(--warna11);
+  font-weight: bold;
+}
+.content-5 a:hover {
+  color: slateblue;
+}

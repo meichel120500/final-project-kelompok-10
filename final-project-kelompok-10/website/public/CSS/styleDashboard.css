@@ -1,0 +1,838 @@
+:root {
+    --warna1: #ffffff;
+    --warna2: #000000;
+    --warna3: #d9d9d9;
+    --warna4: #29bf12;
+    --warna5: #abff4f;
+    --warna6: #08bdbd;
+    --warna7: #f21b3f;
+    --warna8: #ff9914;
+    --warna9: #ffbe0b;
+    --warna10: #8338ec;
+    --warna11: #3a86ff;
+    --warna12: #ff006e;
+    --warna13: #fb5607;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--warna1);
+    color: var(--warna2);
+    font-family: "Poppins", sans-serif;
+}
+
+/* main */
+.main {
+    display: flex;
+}
+/* topbar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.topbar i {
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--warna11);
+}
+
+/* menu */
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* menu dashboard */
+.menu-dashboard {
+    padding: 30px;
+}
+.menu-dashboard h2 {
+    font-weight: 500;
+    margin-bottom: 41px;
+    font-size: 32px;
+}
+.menu-dashboard h2:nth-child(2) {
+    color: var(--warna12);
+}
+.text-dashboard h2 {
+    font-family: "MuseoModerno", sans-serif;
+}
+.dashboard-items {
+    display: flex;
+    justify-content: baseline;
+    gap: 40px;
+}
+.dashboard-items2 {
+    display: flex;
+    justify-content: baseline;
+    gap: 40px;
+}
+
+/* menu profile */
+.user-img {
+}
+#photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--warna11);
+}
+#file {
+    display: none;
+}
+#uploadbtn {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 20px;
+    margin-top: 18px;
+    background-color: var(--warna13);
+    cursor: pointer;
+}
+/* input profile */
+.profile.item2 {
+    display: flex;
+    justify-content: space-between;
+}
+.profile.item2 h2 {
+    font-size: 22px;
+}
+.profile.item2 input[type="text"] {
+    border: 2px solid var(--warna11);
+    font-size: 24px;
+    border-radius: 15px;
+    width: 510px;
+    height: 10.398px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.profile.item2 input[type="email"] {
+    border: 2px solid var(--warna11);
+    font-size: 24px;
+    border-radius: 15px;
+    width: 510px;
+    height: 10.398px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.profile.item2 input[type="number"] {
+    border: 2px solid var(--warna11);
+    font-size: 24px;
+    border-radius: 15px;
+    width: 510px;
+    height: 10.398px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.profile.item2 input[type="password"] {
+    border: 2px solid var(--warna11);
+    font-size: 24px;
+    border-radius: 15px;
+    width: 510px;
+    height: 10.398px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.profile.item3 input[type="text"] {
+    border: 2px solid var(--warna11);
+    font-size: 24px;
+    border-radius: 15px;
+    width: 1120px;
+    height: 10.398px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.profile.item3 .save-changes a {
+    position: absolute;
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    color: var(--warna1);
+    background-color: var(--warna13);
+}
+
+.profile.item3 .save-changes button {
+    position: absolute;
+    margin-top: 20px;
+    width: 170px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: var(--warna1);
+    background-color: var(--warna13);
+}
+
+.item4 {
+    position: absolute;
+    margin-top: 120px;
+}
+.item4 h2 {
+    color: var(--warna7);
+    margin-bottom: -3px;
+}
+.item4 h3 {
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+.item4 .delete-akun a {
+    position: absolute;
+    margin-top: 30px;
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    color: var(--warna2);
+    background-color: var(--warna5);
+}
+/* welcome */
+.welcome {
+    background-color: var(--warna12);
+    width: 420px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.welcome h2 {
+    font-size: 32px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.welcome h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Balance {
+    background-color: var(--warna13);
+    width: 470px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 50px -17px;
+}
+.Balance h2 {
+    font-size: 32px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Balance h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* saldo user */
+.saldo-user {
+    background-color: var(--warna10);
+    width: 385px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.saldo-user h2 {
+    font-size: 32px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.saldo-user h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* transfe uang */
+.transfer-uang {
+    background-color: var(--warna13);
+    width: 385px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.transfer-uang h2 {
+    font-size: 32px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.transfer-uang h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* total pendapatan */
+.total-pendapatan {
+    background-color: var(--warna12);
+    width: 385px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.total-pendapatan h2 {
+    font-size: 30px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.total-pendapatan h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* penukaran uang */
+.penukaran-uang {
+    background-color: var(--warna11);
+    width: 385px;
+    height: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.penukaran-uang h2 {
+    font-size: 24px;
+    color: var(--warna1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.penukaran-uang h2 span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* sidebar */
+.sidebar {
+    min-height: 100vh;
+    background-color: var(--warna9);
+    height: 820px;
+    width: 341px;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
+}
+
+.sidebar h1 {
+    color: var(--warna2);
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.sidebar h1 span {
+    color: var(--warna1);
+    font-weight: bold;
+}
+
+.items {
+    padding: 8px;
+}
+/* dashboard */
+.items .dashboard a {
+    padding: 10px;
+    display: flex;
+    color: var(--warna1);
+}
+.items .dashboard a img {
+    margin-left: 5px;
+    width: 27px;
+    height: 27px;
+    margin-top: 4px;
+}
+.items .dashboard a span {
+    margin-left: 24px;
+}
+.items .dashboard a span h2 {
+    font-weight: 500;
+}
+.items .dashboard:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* guide */
+.items .guide {
+}
+.items .guide a {
+    padding: 10px;
+    display: flex;
+    color: var(--warna1);
+}
+.items .guide a img {
+    margin-left: 5px;
+    width: 33px;
+    height: 33px;
+    margin-top: 4px;
+}
+.items .guide a span {
+    margin-left: 19px;
+    margin-top: 2px;
+}
+.items .guide a span h2 {
+    font-weight: 500;
+}
+.items .guide:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* saldo */
+.items .saldo a {
+    padding: 10px;
+    display: flex;
+    color: var(--warna1);
+}
+.items .saldo a img {
+    width: 40px;
+    height: 24px;
+    margin-top: 6px;
+}
+.items .saldo a span {
+    margin-left: 17px;
+}
+.items .saldo a span h2 {
+    font-weight: 500;
+}
+.items .saldo:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* transaksi */
+.items .transaksi ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    color: var(--warna1);
+}
+.items .transaksi ul li a {
+    display: flex;
+    color: var(--warna1);
+    padding: 10px;
+}
+.items .transaksi ul li a i {
+    color: var(--warna1);
+    padding: 10px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.items .transaksi ul li:nth-child(2),
+li:nth-child(4),
+li:nth-child(5),
+li:nth-child(6) {
+    display: none;
+    padding-left: 60px;
+}
+.items .transaksi ul img {
+    width: 38px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.items .transaksi ul span {
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.items .transaksi ul span h2 {
+    font-weight: 500;
+    color: var(--warna1);
+}
+.items .transaksi ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* topup */
+.dashboard-items-topup {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 40px;
+}
+.dashboard-items-topup .txt-balance h2 {
+    color: var(--warna10);
+    font-weight: 500;
+    margin-top: -40px;
+}
+.dashboard-items-topup .insert-balance {
+    width: 1177px;
+    height: 126px;
+    border: var(--warna11) 1px solid;
+    border-radius: 20px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+}
+.dashboard-items-topup .insert-balance span {
+    padding: 10px;
+    margin-left: 20px;
+}
+.dashboard-items-topup .insert-balance input[type="number"] {
+    font-size: 36px;
+    height: 110px;
+    outline: none;
+    border: none;
+    width: 1050px;
+}
+.dashboard-items-topup
+    .insert-balance
+    input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+.dashboard-items-topup .btn-topup a {
+    font-size: 32px;
+    color: var(--warna1);
+    background-color: var(--warna13);
+    width: 287px;
+    height: 68px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-items-topup .btn-topup .btn {
+    font-size: 32px;
+    color: var(--warna1);
+    background-color: var(--warna13);
+    width: 287px;
+    height: 68px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* topup sukses */
+.dashboard-items.topupsukses {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.dashboard-items .img-sukses img {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+.dashboard-items .txt-sukses h2 {
+    font-size: 32px;
+    color: var(--warna2);
+}
+.dashboard-items .txt-sukses h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -60px;
+}
+.dashboard-items .btn-dashboard a {
+    width: 328px;
+    height: 68px;
+    font-size: 32px;
+    border-radius: 15px;
+    background-color: var(--warna13);
+    color: var(--warna1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* konvert currency */
+.dashboard-items-currency {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    gap: 40px;
+}
+.dashboard-items-currency .txt-currency h2 {
+    color: var(--warna10);
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dashboard-items-currency .insert-currency {
+    width: 490px;
+    height: 130px;
+    border: var(--warna11) 1px solid;
+    border-radius: 20px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+}
+.dashboard-items-currency .insert-currency span {
+    padding: 10px;
+    margin-left: 20px;
+}
+.dashboard-items-currency .insert-currency input[type="number"] {
+    font-size: 36px;
+    height: 30px;
+    outline: none;
+    border: none;
+    width: 280px;
+    padding: 10px;
+}
+.dashboard-items-currency
+    .insert-currency
+    input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+.dashboard-items-currency .btn-currency a {
+    font-size: 32px;
+    color: var(--warna1);
+    background-color: var(--warna13);
+    width: 287px;
+    height: 68px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-items-currency .btn-currency .btn {
+    font-size: 32px;
+    color: var(--warna1);
+    background-color: var(--warna13);
+    width: 287px;
+    height: 68px;
+    margin-top: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnvrt-currency {
+    display: flex;
+    gap: 150px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    flex: 1;
+    padding: 0 0.5px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+select::-ms-expand {
+    display: none;
+}
+
+.select::after {
+    content: "";
+    position: relative;
+    margin-top: -30px;
+    top: 0;
+    right: 0;
+    padding: 0;
+    opacity: 0.5;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.25s all ease;
+}
+
+/* akun */
+.items .akun ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    color: var(--warna1);
+}
+.items .akun ul li a {
+    display: flex;
+    color: var(--warna1);
+    padding: 10px;
+}
+.items .akun ul li a i {
+    color: var(--warna1);
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 8px;
+}
+
+.items .akun ul li:nth-child(2),
+li:nth-child(3) {
+    display: none;
+    padding-left: 60px;
+}
+
+.items .akun ul img {
+    width: 38px;
+    height: 38px;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.items .akun ul span {
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.items .akun ul span h2 {
+    font-weight: 500;
+    color: var(--warna1);
+}
+.items .akun ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* logout */
+.items .logout {
+    position: absolute;
+    bottom: 0px;
+}
+.items .logout a {
+    padding: 10px;
+    display: flex;
+    color: var(--warna1);
+}
+.items .logout a img {
+    margin-left: 5px;
+}
+.items .logout a span {
+    margin-left: 26px;
+}
+.items .logout a span h2 {
+    font-weight: 500;
+}
+.items .logout:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* sidebar hide */
+.sidebar.hide {
+    width: 0px;
+    transition: all ease-in-out 0.2s;
+}
+.sidebar.hide h1 {
+    transition: all ease-in 0.2s;
+    font-size: 0px;
+}
+.sidebar.hide .items {
+    margin-left: -10px;
+}
+.sidebar.hide .items .logout span {
+    display: none;
+}
+
+/* charts */
+
+section#svg-path {
+    margin: 100px;
+}
+
+svg {
+    border: 1px solid rgb(48, 46, 46);
+}
+
+path {
+    fill: rgba(47, 165, 203, 0.1);
+    stroke-width: 2.5;
+    stroke: rgb(47, 164, 203);
+}
+
+g#graph-points {
+    fill: rgba(33, 165, 175, 0);
+    stroke-width: 1;
+    stroke: none;
+}
+
+g#graph-lines {
+    fill: rgba(53, 55, 58, 0.5);
+    stroke: rgb(188, 198, 223);
+}
+
+g#graph-texts {
+    fill: black;
+    stroke-width: 1;
+    stroke: none;
+    text-anchor: middle;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+line {
+    stroke: rgb(188, 197, 219);
+}
+
+#card {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.932);
+    box-shadow: 1px 5px 5px gray;
+    color: rgba(0, 0, 0, 0.767);
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid #3a86ff;
+    text-align: center;
+    padding: 10px;
+    width: 900px;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+   td.success {
+    text-align: center;
+    text-color:var(--warna4);
+  }
+  td.Progress {
+    text-align: center;
+    text-color:var(--warna7);
+  }
+  td.in-progress {
+    text-align: center;
+    text-color:var(--warna8);
+  }
+
+  .text-success {
+    color: green;
+  }
+
+  .text-in-progress {
+    color: yellow;
+  }
+
+  .text-failed {
+    color: red;
+  }
